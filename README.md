@@ -1,1 +1,1 @@
-# tic_tac_toe
+# the game - tic_tac_toe
