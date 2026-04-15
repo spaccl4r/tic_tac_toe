@@ -26,6 +26,11 @@ def main():
                 # ...выбрасывается собственное исключение FieldIndexError.
                 raise FieldIndexError
         # Если возникает исключение FieldIndexError...
+        except ValueError:
+            print('Буквы вводить нельзя. Только числа.')
+            print('Пожалуйста, введите значения для строки и столбца заново.')
+            continue
+        
         except FieldIndexError:
             # ...выводятся сообщения...
             print(
