@@ -15,6 +15,7 @@ class Board:
             print('|'.join(row))
             print('-' * 5)
 
+from gameparts import Board
 
 # Создать игровое поле - объект класса Board.
 game = Board()
