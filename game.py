@@ -30,7 +30,10 @@ def main():
             print('Буквы вводить нельзя. Только числа.')
             print('Пожалуйста, введите значения для строки и столбца заново.')
             continue
-        
+
+        except Exception as e:
+            print(f'Возникла ошибка: {e}')
+            
         except FieldIndexError:
             # ...выводятся сообщения...
             print(
