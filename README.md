@@ -1,1 +1,1 @@
-# the game - tic_tac_toe
+# the game - 'tic_tac_toe' was made by Michael XD

@@ -1,7 +1,7 @@
 # gameparts/parts.py
 
 class Board:
-    """Класс, который описывает игровое поле."""
+    """Этот класс добавляет поле игры и ставит знак X или 0"""
 
     field_size = 3
 
@@ -14,6 +14,7 @@ class Board:
         self.board[row][col] = player
 
     def display(self):
+        """Этот метод отрисовывает визуальные границы поля"""
         for row in self.board:
             print('|'.join(row))
             print('-' * 5)
